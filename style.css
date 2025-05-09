@@ -1,7 +1,6 @@
-/* Stil für den unterstrichenen Link */
 .underline-link {
   text-decoration: underline;
-  color: #0000EE; /* Linkfarbe */
+  color: #0000EE; 
 }
 
 body {
