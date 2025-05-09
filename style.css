@@ -1,7 +1,9 @@
-@font-face {
-  font-family: 'WerkNeue';
-  src: url('WerkNeue-Bold.otf') format('opentype');
-  font-weight: bold;
+body {
+  font-family: 'Times New Roman', serif;
+  background-color: #fffdf9;
+  color: #111;
+  margin: 2rem;
+  line-height: 1.6;
 }
 
 body {
