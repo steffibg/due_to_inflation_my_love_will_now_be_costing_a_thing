@@ -1,5 +1,11 @@
+/* Stil für den unterstrichenen Link */
+.underline-link {
+  text-decoration: underline;
+  color: #0000EE; /* Linkfarbe */
+}
+
 body {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 16px;
   margin: 1rem;
 }
