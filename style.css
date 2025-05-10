@@ -12,3 +12,14 @@ body {
 h1 {
   font-size: 1.5rem;
 }
+
+.content-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 1rem;
+}
+
+.paypal-button {
+  margin-left: 20px;
+}
