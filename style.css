@@ -79,3 +79,9 @@ h1 {
 .nav-list a:hover {
   text-decoration: underline;
 }
+
+.text-block {
+  max-width: 40ch;
+  margin-top: 1rem;
+  /*line-height: 1.6;*/
+}
