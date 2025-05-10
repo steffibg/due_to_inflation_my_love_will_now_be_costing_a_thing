@@ -14,6 +14,7 @@ h1 {
   align-items: flex-start;
   gap: 1.5rem;
   flex-wrap: wrap;
+  max-width: 700px;
 }
 
 .underline-link {
