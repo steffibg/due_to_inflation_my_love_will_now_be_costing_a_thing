@@ -30,7 +30,7 @@ h1 {
 
 .text-content {
   max-width: 70ch;
-  line-height: 1.6;
+  /*line-height: 1.6;*/
 }
 
 .button-content img {
