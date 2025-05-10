@@ -4,15 +4,29 @@ html, body {
   padding: 0;
 }
 
-/* Wrapper für alles außer Impressum */
-.page-content {
-  min-height: calc(100vh - 4rem); /* Platz lassen für Imprint */
-  padding: 1rem;
-}
-
 body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
+}
+
+.page-content {
+  min-height: calc(100vh - 4rem); /* Platz lassen für den unteren "imprint" */
+  padding: 1rem;
+}
+
+.imprint {
+  padding: 1rem;
+  margin-top: 6rem;
+  font-size: 16px;
+}
+
+.imprint a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.imprint a:hover {
+  text-decoration: underline;
 }
 
 h1 {
@@ -45,7 +59,6 @@ h1 {
   color: #0000EE;
 }
 
-/* star list */
 .nav-list {
   list-style: none;
   padding: 0;
@@ -58,25 +71,11 @@ h1 {
   margin-right: 0.5rem;
 }
 
-/* Optional: Link Style für Navigation */
 .nav-list a {
   text-decoration: none;
   color: inherit;
 }
 
 .nav-list a:hover {
-  text-decoration: underline;
-}
-
-.imprint {
-  margin-top: 6rem;
-  padding-left: 0.25rem;
-  font-size: 16px;
-}
-.imprint a {
-  text-decoration: none;
-  color: inherit;
-}
-.imprint a:hover {
   text-decoration: underline;
 }
