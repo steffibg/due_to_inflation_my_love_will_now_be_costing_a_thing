@@ -2,6 +2,9 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Höhe auf 100% der Ansicht setzen */
 }
 
 h1 {
@@ -32,4 +35,14 @@ h1 {
 .underline-link {
   text-decoration: underline;
   color: #0000EE;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.imprint {
+  margin-top: auto;  /* Verhindert, dass der Impressum-Link nach oben schiebt */
+  text-align: center;
+  padding: 1rem;
 }
