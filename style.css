@@ -2,9 +2,6 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
   margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
 }
 
 h1 {
@@ -37,12 +34,31 @@ h1 {
   color: #0000EE;
 }
 
-.content {
-  flex-grow: 1;
+/* star list */
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.nav-list li::before {
+  content: "★";
+  color: #000;
+  margin-right: 0.5rem;
+}
+
+/* Optional: Link Style für Navigation */
+.nav-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
 }
 
 .imprint {
-  margin-top: auto;
+  margin-top: 4rem;
   text-align: center;
-  padding: 1rem;
+  font-size: 14px;
 }
