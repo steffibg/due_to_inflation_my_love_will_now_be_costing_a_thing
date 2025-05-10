@@ -23,3 +23,7 @@ h1 {
 .paypal-button {
   margin-left: 20px;
 }
+
+.text {
+  flex: 1;
+}
