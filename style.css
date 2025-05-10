@@ -7,6 +7,7 @@ html, body {
 body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
+  /* line-height: 1.6; */
 }
 
 .page-content {
@@ -36,22 +37,25 @@ h1 {
 
 .text-button-wrap {
   display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
-  flex-wrap: nowrap;
-  max-width: 700px;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
-.video-gallery {
-  display: block;
-  gap: 1rem;
-  max-width: 100%;
-  height: auto;
+.text-content {
+  max-width: 60ch;
+}
+
+.button-content img {
+  width: 150px;
+  height: 47px;
 }
 
 .video-gallery video {
+  max-width: 100%;
+  height: auto;
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .underline-link {
