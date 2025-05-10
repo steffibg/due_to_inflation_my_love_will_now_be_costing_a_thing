@@ -10,7 +10,7 @@ body {
 }
 
 .page-content {
-  min-height: calc(100vh - 4rem); /* Platz lassen für den unteren "imprint" */
+  min-height: calc(100vh - 4rem); /* Platz lassen "imprint" */
   padding: 1rem;
 }
 
