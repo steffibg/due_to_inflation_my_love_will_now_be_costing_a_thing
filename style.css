@@ -18,11 +18,15 @@ h1 {
 }
 
 .video-gallery {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   gap: 1rem;
   max-width: 100%;
   height: auto;
+}
+
+.video-gallery video {
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 .underline-link {
