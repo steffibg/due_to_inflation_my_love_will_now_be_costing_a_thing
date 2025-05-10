@@ -4,7 +4,7 @@ body {
   margin: 1rem;
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Höhe auf 100% der Ansicht setzen */
+  height: 100vh;
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
 }
 
 .imprint {
-  margin-top: auto;  /* Verhindert, dass der Impressum-Link nach oben schiebt */
+  margin-top: auto;
   text-align: center;
   padding: 1rem;
 }
