@@ -5,8 +5,8 @@ body {
 }
 
 h1 {
-  font-size: 24px;
-  margin-bottom: 1rem;
+  font-size: 20px;
+  margin-bottom: 0rem;
 }
 
 .text-button-wrap {
@@ -14,7 +14,6 @@ h1 {
   align-items: flex-start;
   gap: 1.5rem;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
 }
 
 .underline-link {
@@ -23,7 +22,6 @@ h1 {
 }
 
 video {
-  margin-top: 2rem;
   max-width: 100%;
   height: auto;
 }
