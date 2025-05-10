@@ -6,7 +6,7 @@ body {
 
 h1 {
   font-size: 20px;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 }
 
 .text-button-wrap {
@@ -17,12 +17,15 @@ h1 {
   max-width: 700px;
 }
 
+.video-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
 .underline-link {
   text-decoration: underline;
   color: #0000EE;
-}
-
-video {
-  max-width: 100%;
-  height: auto;
 }
