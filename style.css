@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  margin: 1;
+  margin: 0;
   padding: 0;
 }
 
@@ -10,9 +10,8 @@ body {
 }
 
 .page-content {
-  min-height: calc(100vh - 4rem); /* Platz lassen "imprint" */
+  min-height: calc(100vh - 4rem); /* Platz für Imprint */
   padding: 1rem;
-  margin: 1;
 }
 
 .imprint {
