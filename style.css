@@ -15,21 +15,6 @@ body {
   padding: 1rem;
 }
 
-.imprint {
-  padding: 1rem;
-  margin-top: 6rem;
-  font-size: 16px;
-}
-
-.imprint a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.imprint a:hover {
-  text-decoration: underline;
-}
-
 h1 {
   font-size: 20px;
   margin-bottom: 0;
@@ -37,13 +22,15 @@ h1 {
 
 .text-button-wrap {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  flex-direction: row; /* Nebeneinander anordnen */
+  align-items: center;
+  gap: 2rem; /* Abstand zwischen Text und Button */
   margin-bottom: 2rem;
 }
 
 .text-content {
   max-width: 70ch;
+  line-height: 1.6;
 }
 
 .button-content img {
@@ -58,10 +45,14 @@ h1 {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .text-button-wrap {
-    flex-direction: row;
+    flex-direction: column; /* Auf kleinen Bildschirmen untereinander anordnen */
     align-items: flex-start;
+  }
+
+  .text-content {
+    max-width: 100%; /* Volle Breite auf kleineren Bildschirmen */
   }
 }
 
