@@ -9,17 +9,17 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.content-container {
+.text-button-wrap {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.5rem;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 .underline-link {
   text-decoration: underline;
-  color: #0000EE; 
+  color: #0000EE;
 }
 
 video {
@@ -27,4 +27,3 @@ video {
   max-width: 100%;
   height: auto;
 }
-
