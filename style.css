@@ -113,18 +113,17 @@ h1 {
 }
 
 .about-layout .text-content {
-  flex: 1;
-  max-width: 70ch;
+  flex: 1 1 60ch;
+  max-width: 100%;
+}
+
+.about-layout .image-content {
+  flex: 0 1 300px; /* flexibles Bild */
 }
 
 .about-layout .image-content img {
-  max-width: 600px;
+  width: 100%;
   height: auto;
   display: block;
-}
-
-@media (max-width: 768px) {
-  .about-layout {
-    flex-direction: column;
-  }
+  max-width: 100%;
 }
