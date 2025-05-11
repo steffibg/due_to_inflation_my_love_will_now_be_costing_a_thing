@@ -118,7 +118,7 @@ h1 {
 }
 
 .about-layout .image-content {
-  flex: 0 1 300px; /* flexibles Bild */
+  flex: 0 1 720px; /* flexibles Bild */
 }
 
 .about-layout .image-content img {
