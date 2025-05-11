@@ -150,3 +150,18 @@ h1 {
   max-width: 100%;
   height: auto;
 }
+
+.about-layout .image-content video {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.about-layout .image-content video.landscape {
+  max-width: 895px;
+}
+
+.about-layout .image-content video.portrait {
+  max-width: 448px;
+  width: auto;
+}
