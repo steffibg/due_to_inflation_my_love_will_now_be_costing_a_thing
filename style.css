@@ -119,19 +119,24 @@ h1 {
   max-width: 70ch;
 }
 
+.about-layout .text-content {
+  flex: 0 0 70ch;
+  max-width: 70ch;
+}
+
 .about-layout .image-content {
-  flex: 0 1 720px;
+  flex: 0 1 895px;
 }
 
 .about-layout .image-content img {
   display: block;
   height: auto;
   max-width: 100%;
-  max-height: 720px; /* Querformat */
+  max-height: 1440px; /* Querformat */
 }
 
-/* für Hochformatbilder */
+/* Spezielle Regel für Hochformatbilder */
 .about-layout .image-content img.portrait {
-  max-height: 360px;
+  max-height: 448px;
   width: auto;
 }
