@@ -28,7 +28,7 @@ h1 {
 }
 
 .text-content {
-  max-width: 70ch;
+  max-width: 60ch;
 }
 
 .button-content img {
@@ -41,21 +41,6 @@ h1 {
   height: auto;
   display: block;
   margin-bottom: 1rem;
-}
-
-@media (max-width: 768px) {
-  .text-button-wrap {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .text-content {
-    max-width: 100%;
-  }
-
-  .about-layout {
-    flex-direction: column;
-  }
 }
 
 .underline-link {
@@ -85,7 +70,7 @@ h1 {
 }
 
 .text-block {
-  max-width: 70ch;
+  max-width: 60ch;
   margin-top: 1rem;
 }
 
@@ -115,53 +100,60 @@ h1 {
 }
 
 .about-layout .text-content {
-  flex: 0 0 70ch;
-  max-width: 70ch;
-}
-
-.about-layout .text-content {
-  flex: 0 0 70ch;
-  max-width: 70ch;
+  flex: 1 1 40%;
+  max-width: 60ch;
 }
 
 .about-layout .image-content {
-  flex: 0 1 895px;
+  flex: 1 1 55%;
+  max-width: 100%;
 }
 
-.about-layout .image-content img {
+.about-layout .image-content img,
+.about-layout .image-content video {
   display: block;
+  width: 100%;
   height: auto;
   max-width: 100%;
 }
 
 /* Querformat-Bilder */
-.about-layout .image-content img.landscape {
-  max-width: 895px;
+.about-layout .image-content img.landscape,
+.about-layout .image-content video.landscape {
+  max-width: 975px;
 }
 
 /* Hochformat-Bilder */
-.about-layout .image-content img.portrait {
+.about-layout .image-content img.portrait,
+.about-layout .image-content video.portrait {
   max-width: 672px;
   width: auto;
 }
 
-/* Regel für Video in Galerie */
+/* Galerie-Video */
 .video-gallery video {
   max-width: 100%;
   height: auto;
 }
 
-.about-layout .image-content video {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .text-button-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-.about-layout .image-content video.landscape {
-  max-width: 895px;
-}
+  .text-content {
+    max-width: 100%;
+  }
 
-.about-layout .image-content video.portrait {
-  max-width: 448px;
-  width: auto;
+  .about-layout {
+    flex-direction: column;
+  }
+
+  .about-layout .text-content,
+  .about-layout .image-content {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
