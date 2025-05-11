@@ -141,7 +141,7 @@ h1 {
 
 /* Hochformat-Bilder */
 .about-layout .image-content img.portrait {
-  max-width: 448px;
+  max-width: 672px;
   width: auto;
 }
 
