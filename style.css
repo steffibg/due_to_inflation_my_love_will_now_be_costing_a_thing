@@ -127,7 +127,8 @@ h1 {
 .about-layout .image-content img.portrait,
 .about-layout .image-content video.portrait {
   max-width: 672px;
-  width: auto;
+  width: 100%;
+  height: auto;
 }
 
 /* Galerie-Video */
