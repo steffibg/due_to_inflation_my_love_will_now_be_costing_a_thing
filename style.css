@@ -103,3 +103,28 @@ h1 {
 .imprint a:hover {
   text-decoration: underline;
 }
+
+.about-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.about-layout .text-content {
+  flex: 1;
+  max-width: 70ch;
+}
+
+.about-layout .image-content img {
+  max-width: 600px;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .about-layout {
+    flex-direction: column;
+  }
+}
