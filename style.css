@@ -159,8 +159,8 @@ h1 {
   }
 }
 
-/* Kleineres Bild */
-.small-image {
-  max-width: 50%;
+/* Kleineres Bild (Profilbild) */
+.about-layout .image-content img.portrait.small-image {
+  max-width: 12.5%;
 }
 
