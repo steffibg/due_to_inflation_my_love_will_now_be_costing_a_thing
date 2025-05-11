@@ -113,12 +113,12 @@ h1 {
 }
 
 .about-layout .text-content {
-  flex: 1 1 60ch;
+  flex: 1 1 70ch;
   max-width: 100%;
 }
 
 .about-layout .image-content {
-  flex: 0 1 720px; /* flexibles Bild */
+  flex: 0 1 300px; /* flexibles Bild */
 }
 
 .about-layout .image-content img {
