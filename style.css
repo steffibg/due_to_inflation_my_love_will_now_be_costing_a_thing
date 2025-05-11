@@ -158,3 +158,9 @@ h1 {
     max-width: 100%;
   }
 }
+
+/* Kleineres Bild */
+.small-image {
+  max-width: 50%;
+}
+
