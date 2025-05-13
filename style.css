@@ -164,7 +164,6 @@ h1 {
   .about-layout .text-content {
     flex: 1 1 40%;
     max-width: 60%;
-    font-size: 18px;
   }
 
   .about-layout .image-content {
