@@ -159,6 +159,29 @@ h1 {
   }
 }
 
+/* Größere Bildschirme/Beamer */
+@media (min-width: 1200px) {
+  .about-layout .text-content {
+    flex: 1 1 40%;
+    max-width: 60%;
+    font-size: 18px;
+  }
+
+  .about-layout .image-content {
+    flex: 1 1 55%;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2.5rem; /* größere Schrift für größere Bildschirme */
+  }
+
+  .about-layout .image-content img,
+  .about-layout .image-content video {
+    width: 100%;
+  }
+}
+
 /* Kleineres Bild (Profilbild) */
 .about-layout .image-content img.portrait.small-image {
   max-width: 12.5%;
