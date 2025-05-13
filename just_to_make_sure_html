@@ -16,23 +16,15 @@
 
     <div class="about-layout">
       <div class="text-content">
-        <p>
-          Every time I receive a payment, I will pluck a daisy and record the result.
-          If the video ends with "I love you", you'll get a letter. If not, I keep the 1.77€.
-        </p>
-
-        <p>
-          The 1.77€ will eventually cover the cost of buying custom postage stamps inspired by Jennifer Lopez,
-          a motif I chose because of a meme she posted on Instagram that said
-          "due to inflation my love will now be costing a thing", alluding to her 2001 hit
-          "Love Don't Cost a Thing" and the current economic crisis in America.
-        </p>
-
-        <p>
-          Basically, I want to take the meme seriously:
-          For now, the offer is limited to 20 love letters and only available to people who live
-          in Germany. At the moment there are still 19 letters left !
-        </p>
+        <ul>
+          <li>find a place where daisies grow</li>
+          <li>don’t pick a daisy</li>
+          <li>observe the petals</li>
+          <li>repeat the phrase „he loves me, he loves me not" for each petal</li>
+          <li>write down the result</li>
+          <li>stop when their petals close</li>
+          <li>(you can bet on the outcome)</li>
+        </ul>
       </div>
 
       <div class="image-content">
