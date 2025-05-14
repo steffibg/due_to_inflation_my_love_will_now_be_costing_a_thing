@@ -10,17 +10,16 @@
 <body>
 
   <div class="page-content">
-    <!--<p><a href="index.html">← home</a></p>*/-->
+    <!-- <p><a href="index.html">← home</a></p> -->
 
     <h1>Do they really love you?</h1>
 
     <div class="about-layout">
       <div class="text-content">
         <p>
-          tFor just 2.22€ you can claim the gift of the daisy oracle !<br />
-          <br />
-          If you use my service, I will pluck the petals off a daisy and say 'he loves me, he loves me not' 
-          until I get to the final petal which will determine the answer to your question. 
+          For just 2.22€ you can claim the gift of the daisy oracle!<br /><br />
+          If you use my service, I will pluck the petals off a daisy and say "he loves me, he loves me not"
+          until I get to the final petal, which will determine the answer to your question.
         </p>
 
         <a href="https://paypal.me/stefaniebalintgruber/1.77" target="_blank" class="button-content">
@@ -32,28 +31,24 @@
           />
         </a>
 
-      <h1>Questions the oracle can answer include</h1>
-
+        <h2>Questions the oracle can answer include:</h2>
         <p>
           Do they love you?<br />
           Does she love you?<br />
           Does he love you?<br />
-          Do I love you?<br />
-          <br />
-          If the video ends with “x/y loves(s) you”, you will receive a letter with a love certificate. If not, you can try again.<br />
-          <br />
-          *Please include your address and your question with your PayPal payment so that the letter arrives when the daisies want it to. 
+          Do I love you?<br /><br />
+          If the video ends with “x/y loves(s) you”, you will receive a letter with a love certificate. If not, you can try again.<br /><br />
+          *Please include your address and your question with your PayPal payment so that the letter arrives when the daisies want it to.
         </p>
 
-        <h1>Why invest in me and my business?</h1>
-
+        <h2>Why invest in me and my business?</h2>
         <p>
           As a self-certified daisy-plucking specialist, I am closely connected to the realm of white petal magic.<br />
           The result of my oracle readings is no mere coincidence, but based on years of practicing daisy telepathy and flower-human connection, as well as mastering the art of reading love and happiness from a daisy.<br />
           Previous clients have all been satisfied. 10/10.
         </p>
 
-       <h1>★★★★★</h1>
+        <h2>★★★★★</h2>
       </div>
 
       <div class="image-content">
@@ -61,6 +56,7 @@
           <source src="videos/daisy_for_marten.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        <p class="caption">for Marten</p>
       </div>
     </div>
   </div>
