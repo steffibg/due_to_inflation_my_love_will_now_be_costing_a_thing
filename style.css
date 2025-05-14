@@ -47,7 +47,7 @@ h4 {
 }
 
 .text-content {
-  max-width: 60ch;
+  max-width: 53ch;
 }
 
 .button-content img {
@@ -89,7 +89,7 @@ h4 {
 }
 
 .text-block {
-  max-width: 60ch;
+  max-width: 53ch;
   margin-top: 1rem;
 }
 
@@ -120,7 +120,7 @@ h4 {
 
 .about-layout .text-content {
   flex: 1 1 40%;
-  max-width: 60ch;
+  max-width: 53ch;
 }
 
 .about-layout .image-content {
