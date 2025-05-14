@@ -19,6 +19,25 @@ h1 {
   margin-bottom: 0;
 }
 
+h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.caption {
+  font-size: 18px;
+}
+
 .text-button-wrap {
   display: flex;
   flex-direction: row;
