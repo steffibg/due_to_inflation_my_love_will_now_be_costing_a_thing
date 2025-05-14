@@ -14,22 +14,7 @@ body {
   padding: 1rem;
 }
 
-h1 {
-  font-size: 20px;
-  margin-bottom: 0;
-}
-
-h2 {
-  font-size: 20px;
-  margin-bottom: 0;
-}
-
-h3 {
-  font-size: 20px;
-  margin-bottom: 0;
-}
-
-h4 {
+h1, h2, h3, h4 {
   font-size: 20px;
   margin-bottom: 0;
 }
@@ -89,7 +74,7 @@ h4 {
 }
 
 .text-block {
-  max-width: 53ch;
+  max-width: 60ch;
   margin-top: 1rem;
 }
 
@@ -120,7 +105,7 @@ h4 {
 
 .about-layout .text-content {
   flex: 1 1 40%;
-  max-width: 53ch;
+  max-width: 53ch; 
 }
 
 .about-layout .image-content {
@@ -136,24 +121,21 @@ h4 {
   max-width: 100%;
 }
 
-/* Querformat-Bilder */
+/* Querformat */
 .about-layout .image-content img.landscape,
 .about-layout .image-content video.landscape {
   max-width: 975px;
 }
 
-/* Hochformat-Bilder */
+/* Hochformat */
 .about-layout .image-content img.portrait,
 .about-layout .image-content video.portrait {
   max-width: 672px;
-  width: 100%;
-  height: auto;
 }
 
-/* Galerie-Video */
-.video-gallery video {
-  max-width: 100%;
-  height: auto;
+/* Kleines Portraitbild */
+.about-layout .image-content img.portrait.small-image {
+  max-width: 12.5%;
 }
 
 /* Responsive Layout */
@@ -163,26 +145,19 @@ h4 {
     align-items: flex-start;
   }
 
-  .text-content {
-    max-width: 100%;
-  }
-
-  .about-layout {
-    flex-direction: column;
-  }
-
+  .text-content,
   .about-layout .text-content,
   .about-layout .image-content {
-    flex: 1 1 100%;
     max-width: 100%;
+    flex: 1 1 100%;
   }
 }
 
-/* Größere Bildschirme/Beamer */
+/* Große Bildschirme/Beamer */
 @media (min-width: 1200px) {
   .about-layout .text-content {
     flex: 1 1 40%;
-    max-width: 60%;
+    max-width: 53ch;
   }
 
   .about-layout .image-content {
@@ -194,9 +169,4 @@ h4 {
   .about-layout .image-content video {
     width: 100%;
   }
-}
-
-/* Kleineres Bild (Profilbild) */
-.about-layout .image-content img.portrait.small-image {
-  max-width: 12.5%;
 }
