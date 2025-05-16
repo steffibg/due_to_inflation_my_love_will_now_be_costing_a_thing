@@ -160,10 +160,11 @@ h1, h2, h3, h4 {
     max-width: 55ch;
   }
 
-  .about-layout .image-content {
-    flex: 1 1 55%;
-    max-width: 100%;
-  }
+.about-layout .image-content {
+  flex: 1 1 100%;
+  max-width: 100%;
+  margin-left: auto;
+}
 
   .about-layout .image-content img,
   .about-layout .image-content video {
